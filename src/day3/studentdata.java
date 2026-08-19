@@ -10,11 +10,11 @@ public class studentdata {
         }
 
         public static void main(String[] args) {
-            studentdata d1 = new studentdata("Virat", 25);
+            studentdata d1 = new studentdata("Kiran", 25);
             System.out.println("The Name of Student is " + d1.name);
             System.out.println("The Age of Student is " + d1.age);
 
-            studentdata d2 = new studentdata("Rohit", 30);
+            studentdata d2 = new studentdata("Kumar", 30);
             System.out.println("The Name of Student is " + d2.name);
             System.out.println("The Age of Student is " + d2.age);
         }
